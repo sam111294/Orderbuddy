@@ -1,0 +1,65 @@
+/* border radius voor ronde vierkanten */
+body {
+	margin: auto;
+	width: 1000px;
+	opacity: 0;
+	animation: fadeIn 2s ease-in forwards;
+
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Begin transparant */
+  }
+  to {
+    opacity: 1; /* Eindig volledig zichtbaar */
+  }
+}
+header {
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+	display: flex;
+}
+nav {
+	width: auto;
+	background-color: #f29741;
+	font-family: Arial;
+	color: solid black;
+	text-decoration: none;
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 10px;
+}
+nav a {
+	margin: 30px;
+	text-decoration: none;
+	color: black;
+}
+nav a:hover {
+	text-decoration: underline;
+	color: black;
+}
+article {
+  background-color: #a6884e;
+  width: 230px;
+  height: 230px;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+  float: left;
+}
+article img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+article p {
+	 text-align: center;
+	 font-weight: bold;
+	 font-family: arial;
+}
+article:hover {
+	cursor: pointer;
+	background-color: #d5decc;
+}
