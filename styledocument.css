@@ -30,6 +30,7 @@ nav {
 	display: flex;
 	justify-content: space-evenly;
 	margin: 10px;
+	border-radius: 10%;
 }
 nav a {
 	margin: 30px;
@@ -52,7 +53,7 @@ article img {
   display: block;
   margin-left: auto;
   margin-right: auto;
- 
+  animation: fadeIn 5s ease-in forwards;
 }
 article p {
 	 text-align: center;
