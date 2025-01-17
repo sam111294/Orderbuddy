@@ -30,7 +30,7 @@ nav {
 	display: flex;
 	justify-content: space-evenly;
 	margin: 10px;
-	border-radius: 25%;
+	border-radius: 10px;
 }
 nav a {
 	margin: 30px;
@@ -48,6 +48,7 @@ article {
   margin: 10px 10px 10px 10px;
   cursor: pointer;
   float: left;
+  border-radius: 5px;
 }
 article img {
   display: block;
